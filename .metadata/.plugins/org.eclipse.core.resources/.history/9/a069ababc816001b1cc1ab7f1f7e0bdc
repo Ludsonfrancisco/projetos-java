@@ -1,0 +1,62 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex03 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+
+		boolean infoValida = false;
+		
+		String nome;
+		int idade;
+		float salario;
+		char sexo;
+		char estadoCivil;
+		
+		do {
+			
+			System.out.println("Digite seu Nome ");
+			nome = scan.nextLine();
+					
+				if (nome.length() <= 3) {
+				System.out.println("O nome deve possuir mais de 3 letras!");
+				}else {
+					infoValida = true;
+					System.out.println("Seu nome é: " + nome);
+				}				
+		
+		}while (!infoValida);
+		
+		infoValida = false;		
+		do {
+			System.out.println("Digite sua idade: ");
+			idade = scan.nextInt();
+					
+				if (idade > 150 ) {
+				System.out.println("Idade inválida! Digite uma idade entre 0 e 150!");
+				}else {
+					infoValida = true;
+					System.out.println("Sua idade é: " + idade);
+				}	
+				
+		}while (!infoValida);
+	
+		
+		infoValida = false;
+		do {
+			System.out.println("Digite seu salário: ");
+			idade = scan.nextInt();
+					
+				if (idade > 150 ) {
+				System.out.println("Idade inválida! Digite uma idade entre 0 e 150!");
+				}else {
+					infoValida = true;
+					System.out.println("Sua idade é: " + idade);
+				}	
+				
+		}while (!infoValida);
+	}
+
+}

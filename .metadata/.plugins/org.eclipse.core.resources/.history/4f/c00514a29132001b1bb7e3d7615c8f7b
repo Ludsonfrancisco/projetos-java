@@ -1,0 +1,66 @@
+package works.faesa;
+
+
+public class CalculoVigas {
+
+	private double altura;
+	private double base;
+	private double comprimento;
+
+	public CalculoVigas() {
+	}
+
+	public CalculoVigas(double altura, double base, double comprimento) {
+		this.altura = altura;
+		this.base = base;
+		this.comprimento = comprimento;
+	}
+
+	public double getAltura() {
+		return altura;
+	}
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+
+	public double getBase() {
+		return base;
+	}
+
+	public void setBase(double base) {
+		this.base = base;
+	}
+
+	public double getComprimento() {
+		return comprimento;
+	}
+
+	public void setComprimento(double comprimento) {
+		this.comprimento = comprimento;
+	}
+
+	public double calcViga() {
+		return this.altura * this.base * this.comprimento;
+		
+
+		System.out.println("Digite o valor da altura da viga: ");
+		
+
+		System.out.println("Digite o valor da base da viga: ");
+
+		System.out.println("Digite o valor da comprimento da viga: ");
+
+		System.out.println("Sua viga irá gasta  KG de concreto.2");
+	}
+
+	public static void main(String[] args) {
+		
+
+		CalculoVigas viga = new CalculoVigas();
+		
+		viga.calcViga();
+
+	}
+
+}

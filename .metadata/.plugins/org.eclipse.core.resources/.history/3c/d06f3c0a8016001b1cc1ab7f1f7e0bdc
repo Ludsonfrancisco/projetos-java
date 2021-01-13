@@ -1,0 +1,15 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex02 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Digite do usuário");
+		String user = scan.nextLine();
+
+	}
+
+}

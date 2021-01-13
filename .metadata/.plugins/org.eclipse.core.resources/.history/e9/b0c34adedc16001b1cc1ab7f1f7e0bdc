@@ -1,0 +1,27 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex05 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		boolean valido = false;
+		
+		
+		do {
+		
+		System.out.println("Digite a quantidade dA POPULIÇÃO do PAIS A");
+		int popA = scan.nextInt();
+		
+		System.out.println("Digite a quantidade dA POPULIÇÃO do PAIS B: ");		
+		int popB = scan.nextInt();
+		
+		int crescimento = 0;
+		
+		
+		}	while (!valido);
+	}
+
+}

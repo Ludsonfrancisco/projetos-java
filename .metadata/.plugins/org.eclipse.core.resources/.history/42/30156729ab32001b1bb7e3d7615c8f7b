@@ -1,0 +1,56 @@
+package cursojava.aula34;
+
+public class ContaCorrente {
+
+	private int numberCC;
+	private double balance;
+	private boolean special;
+	private double limit;
+	
+	
+	
+	public ContaCorrente() { }
+
+	public ContaCorrente(int numberCC, double balance, boolean special, double limit) {		
+		this.numberCC = numberCC;
+		this.balance = balance;
+		this.special = special;
+		this.limit = limit;
+	}
+
+	public int getNumberCC() {
+		return numberCC;
+	}
+
+	public void setNumberCC(int numberCC) {
+		this.numberCC = numberCC;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public boolean isSpecial() {
+		return special;
+	}
+
+	public void setSpecial(boolean special) {
+		this.special = special;
+	}
+
+	public double getLimit() {
+		return limit;
+	}
+
+	public void setLimit(double limit) {
+		this.limit = limit;
+	}
+	
+	
+
+	
+}

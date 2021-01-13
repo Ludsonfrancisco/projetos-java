@@ -1,0 +1,25 @@
+package cursojava.aula34;
+
+public class Lampada {
+
+	private String tipo;
+	private String cor;
+	private double potLamapda;
+	private double preco;
+	private int tensao;
+	
+	
+	public Lampada() {	}
+
+	public Lampada(String tipo, String cor, double potLamapda, double preco, int tensao) {
+		super();
+		this.tipo = tipo;
+		this.cor = cor;
+		this.potLamapda = potLamapda;
+		this.preco = preco;
+		this.tensao = tensao;
+	}
+	
+	
+
+}

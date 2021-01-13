@@ -1,0 +1,22 @@
+package cursojava.aula27;
+
+public class ContaCorrente {
+	String ContaCorrente;
+	double saldo;
+	boolean special;
+	double limit;
+
+
+
+double verificarLimiteSaque() {
+
+	return 
+
+}
+
+
+
+}
+
+	
+

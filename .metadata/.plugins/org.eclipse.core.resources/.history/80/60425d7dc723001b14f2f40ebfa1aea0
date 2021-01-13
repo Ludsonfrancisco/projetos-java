@@ -1,0 +1,23 @@
+package cursojava.aula27;
+
+public class ContaCorrente {
+	String ContaCorrente;
+	double limit;
+	double saldo;
+	boolean special;
+
+	void VerificarSaldoSaque() {
+
+		saldo = saldo + limit;
+
+		if (saldo >= 0) {
+			System.out.println("Você possui " + saldo + " para saque!");
+		}
+	}
+	
+	void depositarDinheiro(value) {
+		return valor + saque;
+	}
+	
+
+}

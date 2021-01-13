@@ -1,0 +1,7 @@
+package cursojava.aula34;
+
+public class Lampada {
+	
+	private String tipo;
+	
+}

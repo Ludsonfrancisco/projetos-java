@@ -1,0 +1,13 @@
+package cursojava.aula27;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		ContaCorrente cc = new ContaCorrente();
+		
+		cc.saldo = 1000.00;
+		cc.limit = 500.00;
+
+	}
+
+}

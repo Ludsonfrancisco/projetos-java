@@ -1,0 +1,17 @@
+package cursojava.aula21;
+
+public class ForEach {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		int [] notas = new int [5];
+		
+		for (int nota : notas) {
+			System.out.println(nota);
+			nota = 
+		}
+		
+	}
+
+}

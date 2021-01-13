@@ -1,0 +1,12 @@
+package works.faesa;
+
+import java.util.Scanner;
+
+public class CalculoVigas {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+
+	}
+
+}

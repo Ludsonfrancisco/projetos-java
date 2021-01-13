@@ -1,0 +1,16 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex04 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		// pais A 80000 -- 12 meses- 3%
+		// pais B 200000 -- 12 meses 1.5%
+		int crescimento = 0;
+		for (int i = 80000; )
+	}
+
+}

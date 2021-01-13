@@ -1,0 +1,11 @@
+package cursojava.aula32;
+
+public class Carro {
+
+	String marca;
+	String modelo;
+	int numberPasg;
+	double capCombustivel;
+	double consumoCombustivel;
+
+}

@@ -1,0 +1,36 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex05 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		boolean valido = false;
+		int popA = 0; 
+		int popB = 0;
+		int crescimento = 0;
+		double taxaCres;
+		
+		do {
+		
+		System.out.println("Digite a quantidade dA POPULIÇÃO do PAIS A");
+		popA = scan.nextInt();
+		
+		if(popA > 0  &&  popA < popB ) {
+			valido =  true;
+		}else {
+			System.out.println("Digite um númer");
+		}
+		
+		System.out.println("Digite a quantidade dA POPULIÇÃO do PAIS B: ");		
+		popB = scan.nextInt();
+		
+		
+		
+		
+		}	while (!valido);
+	}
+
+}

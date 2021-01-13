@@ -1,0 +1,16 @@
+package cursojava.aula34;
+
+public class ContaCorrente {
+
+	private String numberCC;
+	private String agencia;
+	private boolean special;
+	private double limitSpecial;	
+	private double saldo;
+	
+	public ContaCorrente() { }
+	
+	
+	
+	
+}

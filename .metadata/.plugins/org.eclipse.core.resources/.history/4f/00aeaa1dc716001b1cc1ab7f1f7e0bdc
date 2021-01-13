@@ -1,0 +1,29 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex03 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+
+		boolean infoValida = false;
+		
+		do {
+			
+			System.out.println("Digite seu: Nome, idade, Salário, Sexo e Estado Civil");
+			String nome = scan.nextLine();
+			int idade = scan.nextInt();
+			float salario = scan.nextFloat();
+			String sexo = scan.next();
+			String estadoCivil = scan.next();
+			
+			
+			if
+		}while (!infoValida);
+		
+	
+		
+	}
+
+}

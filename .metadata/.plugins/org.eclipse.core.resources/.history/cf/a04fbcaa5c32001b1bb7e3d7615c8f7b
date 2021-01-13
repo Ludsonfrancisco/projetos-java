@@ -1,0 +1,16 @@
+package works.faesa;
+
+public class Producao {
+	
+	int previsaoDemanda = 200;
+	int producaoNormal = 250;
+	int estoqueInicial = 50;
+	int estoqueFinal;
+
+	public static void main(String[] args) {
+		
+		Producao producao = new Producao ();
+
+	}
+
+}

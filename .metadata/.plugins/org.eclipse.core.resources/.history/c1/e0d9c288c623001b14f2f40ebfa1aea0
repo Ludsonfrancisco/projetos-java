@@ -1,0 +1,25 @@
+package cursojava.aula27;
+
+public class ContaCorrente {
+	String ContaCorrente;
+	double saldo;
+	boolean special;
+	double limit;
+
+
+
+double VerificarSaldoSaque() {
+
+	if(saldo >= 0) {
+		System.out.println("Você possui " + saldo + " para saque");
+	}
+	return saldo;
+
+}
+
+
+
+}
+
+	
+

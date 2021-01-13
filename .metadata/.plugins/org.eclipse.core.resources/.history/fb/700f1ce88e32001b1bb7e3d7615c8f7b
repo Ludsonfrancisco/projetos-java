@@ -1,0 +1,18 @@
+package works.faesa;
+
+import java.util.Scanner;
+
+public class CalculoVigas {
+	
+	private double altura;
+	private double base;
+	private double comprimento;
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		
+
+	}
+
+}

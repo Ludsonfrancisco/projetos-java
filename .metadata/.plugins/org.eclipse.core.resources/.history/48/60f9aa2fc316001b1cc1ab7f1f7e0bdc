@@ -1,0 +1,12 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex03 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+
+	}
+
+}

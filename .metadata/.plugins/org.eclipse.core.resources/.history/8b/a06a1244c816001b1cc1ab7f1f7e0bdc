@@ -1,0 +1,37 @@
+package cursojava.aula17;
+
+import java.util.Scanner;
+
+public class Aula17Ex03 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+
+		boolean infoValida = false;
+		
+		String nome;
+		int idade;
+		float salario;
+		char sexo;
+		char estadoCivil;
+		
+		do {
+			
+			System.out.println("Digite seu Nome ");
+			nome = scan.nextLine();
+					
+				if (nome.length() <= 3) {
+				System.out.println("O nome deve possuir mais de 3 letras!");
+				}else {
+					infoValida = true;
+					System.out.println("Nome Válido!");
+				}				
+		
+		}while (!infoValida);
+		
+		infoValida = true;
+	
+		
+	}
+
+}

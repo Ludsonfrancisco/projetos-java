@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.naming.ContextNotEmptyException"/>
+    <fullyQualifiedTypeName name="cursojava.aula15.SwitchCase"/>
+    <fullyQualifiedTypeName name="works.faesa.Producao"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="works.faesa.CalculoVigas"/>
+    <fullyQualifiedTypeName name="java.util.function.DoublePredicate"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.core.aarch64.AArch64FloatConvertOp"/>
+    <fullyQualifiedTypeName name="com.sun.source.doctree.VersionTree"/>
+    <fullyQualifiedTypeName name="cursojava.aula33.MinhaCalculadora"/>
+</qualifiedTypeNameHistroy>
